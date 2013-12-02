@@ -1,0 +1,50 @@
+#main-menu {
+	margin: auto;
+	position: relative;
+	top: 200px;
+	width: 1000px;
+}
+
+#main-menu ul li {
+	display: inline-block;
+}
+
+#main-menu ul li a {
+	background: url("../bg.jpg");
+	bottom: 0px;
+	color: #fff;
+	display: block;
+	font-family: Arial;
+	height: 60px;
+	margin-left: -4px;
+	padding-top: 20px;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	width: 250px;
+}
+
+#main-menu ul li a#btn1 {
+	left: 0px;
+}
+
+#main-menu ul li a#btn2 {
+	left: 250px;
+}
+
+#main-menu ul li a#btn3 {
+	left: 500px;
+}
+
+#main-menu ul li a#btn4 {
+	left: 750px;
+}
+
+#main-menu ul li a h1 {
+	display: block;
+	font-size: 25px;
+}
+
+.hide {
+	opacity: 0;
+}
