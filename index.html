@@ -12,11 +12,11 @@
 			$('#main-menu ul li a').hover(function() {
 				/* Stuff to do when the mouse enters the element */
 				$(this).animate({'height':'150px'}, 800)
-				$(this).children('.hide').animate({'opacity':1}, 800);
+				$(this).children('.hide').css({'display':'block'}).animate({'opacity':1}, 800);
 			}, function() {
 				/* Stuff to do when the mouse leaves the element */
 				$(this).animate({'height':'60px'}, 800)
-				$(this).children('.hide').animate({'opacity':0}, 800);
+				$(this).children('.hide').css({'display':'none'}).animate({'opacity':0}, 800);
 			});
 		});
 	</script>
